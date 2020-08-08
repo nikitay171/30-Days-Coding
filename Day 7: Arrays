@@ -1,0 +1,6 @@
+Given an array,A , of N integers, print A's elements in reverse order as a single line of space-separated numbers.
+------------------------------------------------------
+n = int(input())
+arr = list(map(int, input().rstrip().split()))
+a = arr[::-1] #reverse the list
+print(' '.join(map(str,a)))  #convert list into string and print with space-seperated
